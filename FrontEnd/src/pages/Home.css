@@ -1,0 +1,33 @@
+.App{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.card{
+  background-color: green;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  padding:10px;
+  gap:10px;
+  border-radius:5px;
+  box-shadow: 0 0 128px 0 rgba(0,0,0,.1),
+    0 32px 64px -48px rgba(0,0,0,.5);
+}
+
+h2{
+  margin-bottom:5px;
+  color:white;
+}
+button{
+  padding:5px;
+  border:none;
+  border-radius:5px;
+}
+
+
+
+    
+

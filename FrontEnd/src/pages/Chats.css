@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  height:100vh;
+  background-color:grey;
+  padding:8px;
+}
+.chats{
+  height: 88vh;
+  padding:5px;
+  display:flex;
+  flex-direction:column;
+  overflow-y:auto;
+}
+
+.chat{
+  background-color:white;
+  margin-bottom:6px;
+  width: fit-content;
+  max-width:60%;
+  padding:6px;
+  border-radius:5px;
+  position:relative;
+}
+.right{
+  align-self:flex-end;
+  background-color:#dcf8c6;
+  
+}
+.left p::before{
+content:'';
+  position:absolute;
+  top:0;
+  left:-5px;
+  width:12px;
+  height:12px;
+  background:linear-gradient(225deg,#fff 0%,#fff 50%,transparent 50%,transparent );
+}
+.right p::before{
+content:'';
+  position:absolute;
+  top:0;
+  right:-5px;
+  width:12px;
+  height:12px;
+  background:linear-gradient(135deg,#dcf8c6 0%,#dcf8c6 50%,transparent 50%,transparent );
+}
+
+.name{
+  font-weight:bold;
+}
+img{
+  width:100%;
+  object-fit:cover;
+}
+
+
+
+.input{
+  height:10vh;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  position:sticky;
+}
+.text-input{
+  width:80%;
+  margin-right:2px;
+}
+.btn{
+  width:20%;
+}
+
+.file-input{
+  display:none;
+}
+
