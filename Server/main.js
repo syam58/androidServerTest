@@ -6,7 +6,7 @@ let users=[]
 
 const io = require("socket.io")(server, {
 	cors: {
-		origin: ["http://192.168.195.87:5173","http://localhost:5173"],
+		origin: *,
 		methods: [ "GET", "POST" ]
 	}
 })
