@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.App{
+  display:flex;
+  flex-direction:column;
+  padding:9px;
+}
+.ccontainer{
+  margin-top:20px;
+}
+.file-input{
+  display:none;
+}
+button{
+  padding:4px;
+  margin-left:8px;
+}
+img{
+  width:150px;
+  height:200px;
+  object-fit:cover;
+}
